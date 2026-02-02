@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Ferroviario</title>
+</head>
+<body>
+    <header>
+        <p>Completa el formulario para unirte a la sociedad Ferroviaria Peruana</p>
+    </header>
+    <form action="">
+    <!-- SECCIÓN 1: DATOS PERSONALES -->
+        <section>
+            <h2> <img src="Assets/icons8-datos-personales-66.png" alt="Ícono" width="20px;"> Datos personales</h2>
+
+            <label for="nombrecompleto">
+                Nombre:
+                <br><input id="nombrecompleto" placeholder="Escribe tu nombre" required>
+            </label> <br><br>
+
+            <label for="correo">Correo Electrónico:
+                <br><input id="correo" placeholder="Escribe tu correo">
+            </label><br><br>
+
+            <label for="contra">Contraseña:
+                <br><input id="contra" placeholder="Escribe tu contraseña" required>
+            </label><br><br>
+            
+            <label for="number">Edad:
+                <br><input id="number" placeholder="Escribe tu edad">
+            </label><br><br>
+
+            <label for="hb">Fecha de nacimiento
+                <br><input id="hb" type="date">
+            </label>
+        </section>
+            <!-- SECCIÓN 2: PREFERENCIAS -->
+            <section>
+             <h2>Intereses:</h2>
+
+             <label for="">Tipo de locomotora favorita</label>
+               <br> <input type="radio" name="lenguaje"> Vapor
+               <br> <input type="radio" name="lenguaje"> Diesel
+               <br> <input type="radio" name="lenguaje"> Eléctrica <br><br>
+
+            <label for="">¿Qué nacionalidad de locomotoras te gustan más?</label><br>
+            <input type="checkbox">Británicas<br>
+            <input type="checkbox">Americanas<br>
+            <input type="checkbox">Alemanas<br>
+            <input type="checkbox">Japonesas<br><br>
+
+            <label for="">Si estuvieras dentro de la tripulación de una locomotoras a vapor, ¿Qué rol te gustaría desempeñar?</label>
+            <br> <input type="radio" name="lenguaje"> Maquinista
+            <br> <input type="radio" name="lenguaje"> Fogonero
+            <br> <input type="radio" name="lenguaje"> Guarda <br>
+            </section>
+
+            <!-- SECCIÓN 3: ARCHIVO Y MENSAJE -->
+             <section>
+                <h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-list-details"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M13 5h8" /><path d="M13 9h5" /><path d="M13 15h8" /><path d="M13 19h5" /><path d="M3 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" /><path d="M3 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" /></svg>
+                    Información Adicional:
+                </h2>
+
+                    <label>Sube una foto tuya tamaño carnet</label><br>
+                    <input type="file"><br><br>
+
+                    <label>Cuéntanos por qué te gustan los trenes:</label><br>
+                    <textarea rows="4" cols="40"></textarea>
+             </section>
+
+             <!-- SECCIÓN 4: VIDEO -->
+              <section>
+                <h2>Video de presentación:</h2>
+                
+                <label>Sube un vídeo presentándote y a tu colección de trenes (En caso tengas)</label><br>
+                <input type="file" accept="video/*">    
+                <p>En este vídeo puedes contar quien eres, que te gusta y por qué quieres ingresar a nuestro grupo de entusiastas ferroviarios</p>
+              </section>
+
+              <!-- BOTÓN -->
+               <section>
+                <input type="submit" value="Enviar descripción">
+               </section>
+    </form>
+
+    <footer>
+        <p><strong>2026</strong> Sociedad Ferroviaria Peruana</p>
+    </footer>
+</body>
+</html>
